@@ -21,12 +21,22 @@
 	<header>
 		<div class="container-fluid header-banner">
 			<div class="container header-container">
-				<div class="row align-items-start justify-content-between hero-scene--first-row">
-					<div class="col-1">
+				<div class="row align-items-center hero-scene--first-row">
+				<!-- <div class="row align-items-start justify-content-between hero-scene--first-row"> -->
+					<div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
 						<a href="#" class="hero-scene--logo">akad.</a>
 					</div>
-					<div class="col-1 menu_icon_cont">
-						<div class="menu_icon"></div>
+					<div class="col-2 offset-8 col-sm-2 offset-sm-9 col-md-1 offset-md-10 col-lg-1 offset-lg-10 col-xl-1 offset-xl-10">
+						<div class="dropdown show menu_icon_cont">
+						  <a class="btn btn-secondary dropdown-toggle menu_icon" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						  </a>
+						  <div class="dropdown-menu dropdown-menu-icon" aria-labelledby="dropdownMenuLink">
+						    <a class="dropdown-item" href="#">Homepage</a>
+						    <a class="dropdown-item" href="#">Blog</a>
+						    <a class="dropdown-item" href="#">About</a>
+						    <a class="dropdown-item" href="#">Contact us</a>
+						  </div>
+						</div>
 					</div>
 				</div>
 				<div class="row align-items-center justify-content-center header-banner--content">
@@ -85,7 +95,12 @@
 					</div>
 				</div>
 				<div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
-					<img src="img/foto.jpeg " class="img-fluid" alt="Responsive image">
+					<div class="container__content__photo">
+						<img src="img/startup-photos.jpg " class="img-fluid" alt="Responsive image">
+						<div class="container__content__photo--hover">
+							<h4>akad.</h4>
+						</div>
+					</div>
 				</div>
 			</div>
 			<div class="row container__content--link">
@@ -131,9 +146,8 @@
 					tempor incididunt ut labore et dolore magna aliqua.</p>
 				</div>
 			</div>
-			<!-- <div class="row justify-content-around"> -->
 			<div class="row">
-				<div class="ccol-sm-10 col-md-10 col-lg-4 col-xl-4 container__content--price-item">
+				<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 container__content--price-item">
 					<h4>Basic</h4>
 					<span>$35.99 monthly</span>
 					<ul>
@@ -146,7 +160,7 @@
 					</ul>
 					<a href="#">get started</a>
 				</div>
-				<div class="col-sm-10 col-md-10 col-lg-4 col-xl-4 container__content--price-item">
+				<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 container__content--price-item">
 					<h4>advanced</h4>
 					<span>$55.99 monthly</span>
 					<ul>
@@ -159,7 +173,7 @@
 					</ul>
 					<a href="#">get started</a>
 				</div>
-				<div class="col-sm-10 col-md-10 col-lg-4 col-xl-4 container__content--price-item">
+				<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 container__content--price-item">
 					<h4>smart</h4>
 					<span>$75.99 monthly</span>
 					<ul>
@@ -177,13 +191,13 @@
 		<div class="container-fluid form-container">
 			<div class="container top">
 				<div class="row">
-					<div class="col-sm-11 col-md-11 col-lg-6 col-xl-6 form-container--left">
+					<div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 form-container--left">
 						<h3>you think we`re cool ? let`s work together</h3>
 						<div class="col-4">
 							<a href="#">get in touch</a>
 						</div>
 					</div>
-					<div class="col-sm-11 col-md-11 col-lg-6 col-xl-6 form-container--right">
+					<div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 form-container--right">
 						<form autocomplete="on" name="form_one">
 							<h3>STAY INFORMED WITH OUR<br> NEWSLETTER</h3>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -201,27 +215,24 @@
 	<footer>
 		<div class="container footer-container">
 			<div class="row">
-				<div class="col-sm-11 col-md-11 col-lg-6 col-xl-6">
+				<div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
 					<div class="footer-navigation">
 						<a href="#">home</a>
-						<!-- <div class="line"></div> -->
 						<a href="#">about us</a>
-						<!-- <div class="line"></div> -->
 						<a href="#">services</a>
-						<!-- <div class="line"></div> -->
 						<a href="#">portfolio</a>
-						<!-- <div class="line"></div> -->
 						<a href="#">blog</a>
-						<!-- <div class="line"></div> -->
 						<a href="#">contact</a>
 					</div>
 				</div>
-				<div class="col-sm-11 col-md-11 col-lg-6 col-xl-6">
-					<div class="row justify-content-end">
-						<p class="text">Created by akhouad 2016. All Rights Reserved</p>
+				<div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+					<div class="row">
+						<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 no-gutters">
+							<p class="text">Created by akhouad 2016. All Rights Reserved</p>
+						</div>
 					</div>
 					<div class="row justify-content-end">
-						<div class="col-sm-11 col-md-11 col-lg-4 col-xl-4 footer-socail--link">
+						<div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 footer-socail--link">
 							<a href="#"><i class="icon ion-social-facebook"></i></a>
 							<a href="#"><i class="icon ion-social-twitter"></i></a>
 							<a href="#"><i class="icon ion-social-youtube"></i></a>
