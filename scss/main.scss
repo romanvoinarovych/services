@@ -92,6 +92,9 @@ body{
 					background-color: rgba(255, 255, 250, 0.45);
 				}
 			}
+			.dropdown-toggle::after {
+				display: none;
+			}
 
 		}
 		.header-banner--content {
@@ -441,7 +444,7 @@ body{
 	}
 }
 .footer-container {
-	margin: 30px auto;
+	margin: 45px auto 30px;
 	.footer-navigation {
 		display: -webkit-box;
 		display: -ms-flexbox;
@@ -460,6 +463,7 @@ body{
 			    justify-content: space-around;
 			a {
 				margin: 0 20px 0;
+				line-height: 2;
 			}
 		}
 		@media screen and(max-width: 768px) {
@@ -470,13 +474,13 @@ body{
 			    justify-content: space-around;
 			a {
 				margin: 0 20px 0;
+				line-height: 2;
 			}
 		}
 		a {
 			display: block;
 			font-family: 'Open Sans', sans-serif;
 			font-size: 14px;
-			line-height: 3.43;
 			text-align: left;
 			color: #9a9a9a;
 			text-transform: uppercase;
@@ -523,7 +527,6 @@ body{
 	.text {
 		font-family: 'Open Sans', sans-serif;
 		font-size: 14px;
-		line-height: 3.43;
 		text-align: right;
 		color: #9a9a9a;
 		text-transform: uppercase;
