@@ -20,7 +20,7 @@ body{
 	url('../img/pexels-photo-355747.jpeg') 50% 50% no-repeat;
 	.header-container {
 		height: 100%;
-		.hero-scene--first-row {
+		.hero-scene-first-row {
 			padding: 43px 0 0 0;
 			.hero-scene--logo {
 				color: #60606e;
@@ -235,6 +235,23 @@ body{
 	h3::before {
 		background-color: #7beec7;
 		bottom: 10px;
+		content: '';
+		height: 21px;
+		position: absolute;
+		width: 50px;
+		z-index: -1;
+		left: calc(((100% - 50px)/2) - 7px);
+	}
+	.icon-title {
+		color: #60606e;
+		font-size: 60px;
+		position: relative;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	.icon-title::before {
+		background-color: #7beec7;
+		bottom: 18px;
 		content: '';
 		height: 21px;
 		position: absolute;
