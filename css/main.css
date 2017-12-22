@@ -7,8 +7,8 @@ body {
 .header-banner {
   height: 500px;
   max-width: 100%;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 250, 0.45)), to(rgba(255, 255, 250, 0.45))), url("../img/pexels-photo-355747.jpeg") 50% 50% no-repeat;
-  background: linear-gradient(rgba(255, 255, 250, 0.45), rgba(255, 255, 250, 0.45)), url("../img/pexels-photo-355747.jpeg") 50% 50% no-repeat; }
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 250, 0.45)), to(rgba(255, 255, 250, 0.45))), url("../img/pexels-photo-355747.jpg") 50% 50% no-repeat;
+  background: linear-gradient(rgba(255, 255, 250, 0.45), rgba(255, 255, 250, 0.45)), url("../img/pexels-photo-355747.jpg") 50% 50% no-repeat; }
   .header-banner .header-container {
     height: 100%; }
     .header-banner .header-container .hero-scene-first-row {
